@@ -302,3 +302,11 @@ header .header-right a {
   color:#454346;
   padding-top: 16px;
 }
+/* PROMOTION */
+.promotion {
+  margin-bottom: 80px;
+}
+.promotion video {
+  width: 100%;
+  height: 553px;
+}
