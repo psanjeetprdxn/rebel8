@@ -235,5 +235,45 @@ header .header-right a {
   color: #332F34;
   font-size: 18px;
   font-weight: 500;
+}
+/* BANNER */
 
+
+/* WARDROBE */
+.wardrobe {
+  background-color: #FFFDFF;
+  font-family: sans-serif;
+  text-align: center;
+  /* margin-bottom: 110px; */
+}
+
+.wardrobe .wrapper {
+  margin: 0 auto;
+  width: 94%;
+}
+
+.wardrobe li {
+  width: 25%;
+  display: inline-block;
+  margin-left: -5px;
+  margin-bottom: 60px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+.wardrobe h3 {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #2E2A2E;
+}
+
+.wardrobe span {
+  display: block;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #C0BEC1;
+}
+
+.wardrobe span:last-child {
+  font-size: 10px;
 }
