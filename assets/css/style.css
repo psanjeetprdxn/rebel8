@@ -2,11 +2,11 @@
 
 /*------------------------------------------------------------------
   [Table of contents]
-  * To keep an overview of structure of your code, we make use of table of 
+  * To keep an overview of structure of your code, we make use of table of
   * content. Table of content is use display the overall tree structure of your
-  * Layout. 
+  * Layout.
   * (NOTE: Remove this commented code once you start developing the code.
-  * Remove the following table of content and add your own as this is just and 
+  * Remove the following table of content and add your own as this is just and
   * example to let you know)
 
   1. CSS Reset Code
@@ -31,9 +31,9 @@
 /*------------------------------------------------------------------
   [Color codes]
   * Mention the color code you have used in your html document for the respective
-  * elements given as follow. 
-  * (NOTE: Remove this commented code once you start developing the code. 
-  * Remove the following color code and add your own as this is just and 
+  * elements given as follow.
+  * (NOTE: Remove this commented code once you start developing the code.
+  * Remove the following color code and add your own as this is just and
   * example to let you know)
 
   Header nav: #e5e5df (Cararra)
@@ -45,8 +45,8 @@
   [Typography]
   * Mention the Typography you have used in your html document for the respective
   * elements given as follow.
-  * (NOTE: Remove this commented code once you start developing the code. 
-  * Remove the following typography and add your own as this is just and 
+  * (NOTE: Remove this commented code once you start developing the code.
+  * Remove the following typography and add your own as this is just and
   * example to let you know)
 
   Header nav a: 16px 'Futura Bold', 'Gill Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
@@ -144,7 +144,7 @@
  * apply to the element wherever it is needed. If any single property in changed,
  * then override only that property in the particular class which is used for the
  * element.
- * (NOTE: Remove this commented code once you start 
+ * (NOTE: Remove this commented code once you start
  * developing the code. Remove the following font class and add your own
  * as this is just and example to let you know. If there is only one font family
  * followed throughout the site, then menstion the font property in body. No need
@@ -157,4 +157,83 @@
  }
 
  /* ======= Your styling goes below ======= */
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+/* HEADER */
+.offer {
+  width: 100%;
+  background-color: #211D22;
+  text-align: center;
+  color: #BCB7BC;
+  font-family: sans-serif;
+  font-size: 11px;
+  padding: 6px 0;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+.offer a{
+  color: #BCB7BC;
+}
 
+header .wrapper {
+  margin: 0 auto;
+  width: 94%;
+  padding: 13px 0;
+  background-color: #FFFDFF;
+}
+
+header .header-left {
+  display: inline-block;
+  width: 25%;
+}
+
+header .header-left a {
+  color: #2C282B;
+  font-size: 20px;
+  font-weight: 3px;
+}
+
+nav {
+  display: inline-block;
+  width: 50%;
+  margin-left: -5px;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0 24px;
+}
+
+nav li a{
+  color: #332F34;
+  font-size: 26px;
+  font-weight: 800;
+  font-family: sans-serif;
+}
+
+
+header .header-right {
+  display: inline-block;
+  width: 25%;
+  margin-left: -5px;
+  text-align: right;
+}
+
+header .header-right li {
+  /* text-align: right; */
+  display: inline-block;
+  padding: 10px;
+  /* font-family: sans-serif; */
+}
+
+header .header-right a {
+  color: #332F34;
+  font-size: 18px;
+  font-weight: 500;
+
+}
