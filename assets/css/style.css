@@ -277,3 +277,28 @@ header .header-right a {
 .wardrobe span:last-child {
   font-size: 10px;
 }
+/* DEALS  */
+.deals {
+  background-color: #FFFDFF;
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: 50px;
+}
+
+.deals .wrapper {
+  margin: 0 auto;
+  width: 94%;
+}
+
+.deals .deal {
+  display: inline-block;
+  width: 50%;
+  margin-left: -5px;
+}
+.deals .deal h3 {
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color:#454346;
+  padding-top: 16px;
+}
