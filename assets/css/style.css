@@ -182,7 +182,7 @@ li {
 header .wrapper {
   margin: 0 auto;
   width: 94%;
-  padding: 13px 0;
+  padding: 12px 0;
   background-color: #FFFDFF;
 }
 
@@ -194,7 +194,6 @@ header .header-left {
 header .header-left a {
   color: #2C282B;
   font-size: 20px;
-  font-weight: 3px;
 }
 
 nav {
@@ -234,17 +233,58 @@ header .header-right li {
 header .header-right a {
   color: #332F34;
   font-size: 18px;
-  font-weight: 500;
+  /* font-weight: 500; */
 }
 /* BANNER */
+.banner {
+  margin-bottom: 20px;
+  position: relative;
+}
 
+.banner .slider-image img {
+  position: relative;
+}
+.banner .slider-image h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: #fcfafb;
+  font-size: 39px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+.banner .slider-icon {
+  position: absolute;
+  bottom: 7px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
+.banner .slider-icon li {
+  display: inline-block;
+  text-align: center;
+  padding: 0 4px;
+  font-size: 18px;
+}
+.banner .slider-icon li a {
+  color: #a5a0a6;
+  border-radius: 100%;
+  border-color: #EAE4EA;
+}
+
+.banner .slider-icon li:first-child a{
+  background: #eae4eb;  
+  border-radius: 100%;
+}
 /* WARDROBE */
 .wardrobe {
   background-color: #FFFDFF;
   font-family: sans-serif;
   text-align: center;
-  /* margin-bottom: 110px; */
+  margin-bottom: 75px;
 }
 
 .wardrobe .wrapper {
@@ -256,7 +296,8 @@ header .header-right a {
   width: 25%;
   display: inline-block;
   margin-left: -5px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
+  padding: 40px 0;
   box-sizing: border-box;
   vertical-align: top;
 }
@@ -265,6 +306,7 @@ header .header-right a {
   font-weight: 600;
   letter-spacing: 1px;
   color: #2E2A2E;
+  padding-top: 70px;
 }
 
 .wardrobe span {
@@ -314,7 +356,7 @@ header .header-right a {
 /* FOOTER */
 footer {
   font-family: sans-serif;
-  margin-bottom: 50px;
+  margin-bottom: 7px;
 }
 
 footer .wrapper {
@@ -333,7 +375,7 @@ footer .faq {
 }
 
 footer .faq {
-  margin-left: 100px;
+  margin-left: 315px;
 }
 
 footer .faq li {
@@ -365,6 +407,7 @@ footer .social-links a {
 
 footer .policy {
   text-align: center;
+  padding: 46px 0;
 }
 
 footer .policy li {
